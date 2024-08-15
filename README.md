@@ -14,16 +14,16 @@ The KNNLabels matrix has one column and each row corresponds to a row in the Dat
 - -1 = Artifact
 
 The Data matrix contains the feature data itself. The features are as follows from first column to last column of the Data matrix:
-- Feature Name	            Description
-- Time Absolute Maximum		  The maximum absolute value of amplitude from the time series.
-- Time Variance	            The variance of the amplitude from the time series.
-- Time Root Mean Square	    The root mean square value of amplitude from the time series.
-- Time Sample Entropy	      The sample entropy of the time series. 
-- Time Energy	              The signal energy of the time series. 
-- Peak Frequency	          The frequency with the maximum magnitude from the frequency domain view of the window.
-- Average Power	            The average magnitude across all frequency bins of the frequency domain view of the window.
-- Delta Band Power	        The power of the frequency band is from .5 to 4Hz of the frequency domain view of the window.
-- Theta Band Power	        The power of the frequency band is from 4 to 8Hz for the frequency domain view of the window.
-- Alpha Band Power	        The power of the frequency band is from 8 to 12Hz in the frequency domain view of the window.
-- Beta Band Power	          The power of the frequency band is from 12 to 30Hz in the frequency domain view of the window.
-- Gamma Band Power	        The power of the frequency band is from 30 to 50Hz in the frequency domain view of the window.
+- Feature Name:	            Description
+- Time Absolute Maximum:		  The maximum absolute value of amplitude from the time series.
+- Time Variance:	            The variance of the amplitude from the time series.
+- Time Root Mean Square:	    The root mean square value of amplitude from the time series.
+- Time Sample Entropy:	      The sample entropy of the time series. 
+- Time Energy:	              The signal energy of the time series. 
+- Peak Frequency:	          The frequency with the maximum magnitude from the frequency domain view of the window.
+- Average Power:	            The average magnitude across all frequency bins of the frequency domain view of the window.
+- Delta Band Power:	        The power of the frequency band is from .5 to 4Hz of the frequency domain view of the window.
+- Theta Band Power:	        The power of the frequency band is from 4 to 8Hz for the frequency domain view of the window.
+- Alpha Band Power:	        The power of the frequency band is from 8 to 12Hz in the frequency domain view of the window.
+- Beta Band Power:	          The power of the frequency band is from 12 to 30Hz in the frequency domain view of the window.
+- Gamma Band Power:	        The power of the frequency band is from 30 to 50Hz in the frequency domain view of the window.
